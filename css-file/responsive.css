@@ -1,0 +1,636 @@
+@media (min-width: 320px) and 
+(max-width:576px) {
+  header{
+    padding: 20px;
+  }
+  .nav-wrepper {
+    display: flex;
+}
+  .nav-wrepper ul li {
+  display: none;
+}
+
+.fa-bars{
+  display: block;
+  }
+  .content-wrepper {
+    display: grid;
+}
+.content-wrepper .left {
+  margin-top: 60px;
+  width:  100%;
+}
+ .left .vector-img img{
+ height: 8rem;
+ }
+ .left .writing h1 {
+  font-size: 39px;
+  line-height: 50px;
+  width: auto;
+}
+.left .writing button {
+  margin-right: 0px;
+  padding: 8px 18px;
+  font-size: 15px;
+}
+.content-wrepper .right{
+  width: 100%;
+}
+.content-wrepper .right img{
+ max-width:90%;
+}
+.about-wrepper {
+  display: block;
+}
+.about-wrepper .right img{
+  max-width:  100%;
+}
+
+.about-wrepper .left .writing-area h2 {
+  font-size: 43px;
+  line-height: 71px;
+}
+.light-vector img {
+  margin-left: 8px;
+  width: 50px;
+  height: 50px;
+}
+.music-vector {
+  margin-bottom: 4px;
+  width: 50px;
+  height: 50px;
+}
+.down-vector {
+  margin-top: 24px;
+  width: 50px;
+  height: 50px;
+}
+.about-wrepper .left .writing-area p {
+  width: 95%;
+  font-size: 16px;
+}
+section {
+  padding: 2rem 0.9rem;
+}
+.Project .prject-area h2 {
+  font-size: 46px;
+  line-height: 46px;
+}
+.Project .prject-area ul li button {
+  margin-right: 0px;
+  padding: 10px 21px;
+  font-size: 12px;
+  margin-bottom: 27px;
+}
+.img-area {
+  display: grid;
+  gap: 10px;
+}
+.img-area img{
+  width: 100%;
+}
+.contact-wrepper .left h2 {
+  font-size: 44px;
+  line-height: 53px;
+}
+.imgs .vector-shep {
+  margin-bottom: -13px;
+  width: 70px;
+}
+.contact-wrepper {
+  display: block;
+}
+.contact-wrepper .right form  label {
+  font-size: 13px;
+}
+.contact-wrepper .right form input {
+  padding: 18px 12px 18px;
+  width: 100%;
+}
+.contact-wrepper .right .box {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+.contact-wrepper .right .message textarea {
+  width: 100%;
+  background: rgba(57, 62, 70, 50%);
+  border: none;
+  padding: 16px 0;
+  padding-left: 24px;
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 20rem;
+  color: #eeeeee;
+}
+.contact-wrepper .right form input {
+  width: 100%;
+  padding: 12px 0;
+  padding-left: 15px;
+}
+.contact-wrepper .right form {
+  margin-top: 40px;
+  width: 100%;
+}
+footer ul {
+  display: block;
+}
+footer {
+  padding-top: 24px;
+  margin-bottom: 15px;
+}
+footer h4 {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+footer .one {
+  margin-top:5px;
+  display: flex;
+}
+footer .one a i{
+  display: none;
+}
+footer .two {
+  margin-top: 30px;
+  display: flex;
+}
+
+}
+@media (min-width: 577px) and 
+(max-width:767px) {
+  header{
+    padding: 20px;
+  }
+  .nav-wrepper {
+    display: flex;
+}
+  .nav-wrepper ul li {
+  display: none;
+}
+
+.fa-bars{
+  display: block;
+  }
+  .content-wrepper {
+    display: grid;
+}
+.content-wrepper .left {
+  margin-top: 60px;
+  width:  340px;
+}
+ .left .vector-img img{
+ height: 8rem;
+ }
+ .left .writing h1 {
+  font-size:60px;
+  line-height: 60px;
+  width: 500px;
+}
+.left .writing button {
+  margin-right: 10px;
+  padding: 10px 24px;
+  font-size: 15px;
+}
+
+.content-wrepper .right img{
+ max-width:100%;
+}
+.about-wrepper {
+  display: block;
+}
+.about-wrepper .right img{
+  max-width:  100%;
+}
+
+.about-wrepper .left .writing-area h2 {
+  font-size: 43px;
+  line-height: 71px;
+}
+.light-vector img {
+  margin-left: 8px;
+  width: 50px;
+  height: 50px;
+}
+.music-vector {
+  margin-bottom: 4px;
+  width: 50px;
+  height: 50px;
+}
+.down-vector {
+  margin-top: 24px;
+  width: 50px;
+  height: 50px;
+}
+.about-wrepper .left .writing-area p {
+  width: 95%;
+  font-size: 16px;
+}
+section {
+  padding: 2rem 0.9rem;
+}
+.Project .prject-area h2 {
+  font-size: 46px;
+  line-height: 46px;
+}
+.Project .prject-area ul li button {
+  margin-right: 0px;
+  padding: 10px 21px;
+  font-size: 12px;
+  margin-bottom: 27px;
+}
+.img-area {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+.img-area img{
+  width: 100%;
+}
+.contact-wrepper .left h2 {
+  font-size: 44px;
+  line-height: 53px;
+}
+.imgs .vector-shep {
+  margin-bottom: -13px;
+  width: 70px;
+}
+.contact-wrepper {
+  display: block;
+}
+.contact-wrepper .right form  label {
+  font-size: 13px;
+  padding: 18px 12px 18px;
+  width: 100%;
+}
+
+.contact-wrepper .right .box {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+.contact-wrepper .right .message textarea {
+  width: 100%;
+  background: rgba(57, 62, 70, 50%);
+  border: none;
+  padding: 16px 0;
+  padding-left: 24px;
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 20rem;
+  color: #eeeeee;
+}
+.contact-wrepper .right form input {
+  width: 100%;
+  padding: 12px 0;
+  padding-left: 15px;
+}
+.contact-wrepper .right form {
+  margin-top: 40px;
+  width: 100%;
+}
+footer ul {
+  display: block;
+}
+footer {
+  padding-top: 24px;
+  margin-bottom: 15px;
+}
+footer h4 {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+footer .one {
+  margin-top:5px;
+  display: flex;
+}
+footer .one a i{
+  display: none;
+}
+footer .two {
+  margin-top: 30px;
+  display: flex;
+}
+
+}
+@media (min-width: 768px) and 
+(max-width:992px) {
+  header{
+    padding: 20px;
+  }
+  .nav-wrepper {
+    display: flex;
+}
+
+
+.fa-bars{
+  display: none;
+  }
+  .content-wrepper {
+ margin-top: 6rem;
+}
+.content-wrepper .left {
+  margin-top: 60px;
+  width:  340px;
+}
+ .left .vector-img img{
+ height: 8rem;
+ }
+ .left .writing h1 {
+  font-size:60px;
+  line-height: 60px;
+  width: 500px;
+}
+.left .writing button {
+  margin-right: 10px;
+  padding: 10px 24px;
+  font-size: 15px;
+}
+
+.content-wrepper .right img{
+ max-width:100%;
+ margin-top: 7rem;
+}
+
+.about-wrepper .right img{
+ width:100%; 
+}
+
+.about-wrepper .left .writing-area h2 {
+  font-size: 55px;
+  line-height: 71px;
+}
+.light-vector img {
+  margin-left: 8px;
+  width: 70px;
+  height: 70px;
+}
+.music-vector {
+  margin-bottom: 4px;
+  width: 50px;
+  height: 50px;
+}
+.down-vector {
+  margin-top: 24px;
+  width: 50px;
+  height: 50px;
+}
+.about-wrepper .left .writing-area p {
+  width:100%;
+  font-size: 16px;
+}
+.about-wrepper .left {
+  width: 50%;
+}
+.about-wrepper .right {
+  width: 50%;
+}
+section {
+  padding: 2rem 0.9rem;
+}
+.Project .prject-area h2 {
+  font-size: 46px;
+  line-height: 46px;
+}
+.Project .prject-area ul li button {
+  margin-right: 0px;
+  padding: 10px 21px;
+  font-size: 12px;
+  margin-bottom: 27px;
+}
+.img-area {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+.img-area img{
+  width: 100%;
+}
+.contact-wrepper .left h2 {
+  font-size: 44px;
+  line-height: 53px;
+}
+.imgs .vector-shep {
+  margin-bottom: -13px;
+  width: 70px;
+}
+.contact-wrepper {
+  display: block;
+}
+.contact-wrepper .right form  label {
+  font-size: 13px;
+}
+.contact-wrepper .right .box {
+  gap: 5px;
+}
+.contact-wrepper .right .message textarea {
+  width: 100%;
+  background: rgba(57, 62, 70, 50%);
+  border: none;
+  padding: 16px 0;
+  padding-left: 24px;
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 20rem;
+  color: #eeeeee;
+}
+
+.contact-wrepper .right form input {
+  padding: 18px 12px 18px;
+  width: 100%;
+}
+.contact-wrepper .right .box {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+.contact-wrepper .right form {
+  margin-top: 40px;
+  width: 100%;
+}
+footer ul {
+  display: block;
+}
+footer {
+  padding-top: 24px;
+  margin-bottom: 15px;
+}
+footer h4 {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+footer .one {
+  margin-top:5px;
+  display: flex;
+}
+footer .one a i{
+  display: none;
+}
+footer .two {
+  margin-top: 30px;
+  display: flex;
+}
+
+}
+@media (min-width: 993px) and 
+(max-width:1100px) {
+  header{
+    padding: 20px;
+  }
+  .nav-wrepper {
+    display: flex;
+}
+
+
+.fa-bars{
+  display: none;
+  }
+  .content-wrepper {
+ margin-top: 6rem;
+}
+.content-wrepper .left {
+  margin-top: 60px;
+  width:  340px;
+}
+ .left .vector-img img{
+ height: 8rem;
+ }
+ .left .writing h1 {
+  font-size:60px;
+  line-height: 60px;
+  width: 500px;
+}
+.left .writing button {
+  margin-right: 10px;
+  padding: 10px 24px;
+  font-size: 15px;
+}
+
+.content-wrepper .right img{
+ max-width:100%;
+ margin-top: 7rem;
+}
+
+.about-wrepper .right img{
+ width:100%; 
+}
+
+.about-wrepper .left .writing-area h2 {
+  font-size: 55px;
+  line-height: 71px;
+}
+.light-vector img {
+  margin-left: 8px;
+  width: 70px;
+  height: 70px;
+}
+.music-vector {
+  margin-bottom: 4px;
+  width: 50px;
+  height: 50px;
+}
+.down-vector {
+  margin-top: 24px;
+  width: 50px;
+  height: 50px;
+}
+.about-wrepper .left .writing-area p {
+  width:100%;
+  font-size: 16px;
+}
+.about-wrepper .left {
+  width: 50%;
+}
+.about-wrepper .right {
+  width: 50%;
+}
+section {
+  padding: 2rem 0.9rem;
+}
+.Project .prject-area h2 {
+  font-size: 46px;
+  line-height: 46px;
+}
+.Project .prject-area ul li button {
+  margin-right: 0px;
+  padding: 10px 21px;
+  font-size: 12px;
+  margin-bottom: 27px;
+}
+.img-area {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+.img-area img{
+  width: 100%;
+}
+.contact-wrepper .left h2 {
+  font-size: 44px;
+  line-height: 53px;
+}
+.imgs .vector-shep {
+  margin-bottom: -13px;
+  width: 70px;
+}
+.contact-wrepper {
+  display: block;
+}
+.contact-wrepper .right form  label {
+  font-size: 13px;
+}
+.contact-wrepper .right .box {
+  gap: 5px;
+}
+.contact-wrepper .right .message textarea {
+  width: 100%;
+  background: rgba(57, 62, 70, 50%);
+  border: none;
+  padding: 16px 0;
+  padding-left: 24px;
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 20rem;
+  color: #eeeeee;
+}
+
+.contact-wrepper .right form input {
+  padding: 18px 12px 18px;
+  width: 100%;
+}
+.contact-wrepper .right .box {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+.contact-wrepper .right form {
+  margin-top: 40px;
+  width: 100%;
+}
+footer ul {
+  display: block;
+}
+footer {
+  padding-top: 24px;
+  margin-bottom: 15px;
+}
+footer h4 {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+footer .one {
+  margin-top:5px;
+  display: flex;
+}
+footer .one a i{
+  display: none;
+}
+footer .two {
+  margin-top: 30px;
+  display: flex;
+}
+
+}

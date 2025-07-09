@@ -1,0 +1,293 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #222831;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  padding: 48px;
+  background: #222831;
+  border-bottom: 1px solid rgba(238, 238, 238, 10%);
+}
+.container{
+  max-width: 1248px;
+  margin: auto;
+}
+.nav-wrepper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrepper img{
+  width: 108px;
+  height: 33px;
+}
+.nav-wrepper ul li{
+  display: inline-block;
+  margin-left: 48px;
+}
+.nav-wrepper ul li a{
+ font-size: 18px;
+ color: #eeeeee;
+ font-weight: 400;
+}
+.nav-wrepper ul li a:hover{
+ text-decoration: underline;
+ color: #00ADB5;
+}
+.fa-bars{
+font-size: 25px;
+color: white;
+display: none;
+}
+
+
+section{
+  width: 100%;
+  height: 100%;
+  padding: 10rem 2rem;
+}
+.content-wrepper{
+  /* margin-top: 195px; */
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+}
+.content-wrepper .left{
+  margin-top: 60px;
+}
+.left .writing h1{
+font-size: 96px;
+font-weight: bold;
+line-height: 96px;
+color: #eeeeee;
+margin-bottom: 16px;
+}
+.left .writing h1 span{
+color: #00ADB5;
+}
+.left .writing button{
+  margin-right: 14px;
+  border: none;
+  padding: 10px 32px;
+  background: rgba(57, 62, 70,75%);
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius:24px;
+  text-shadow: 0 4px 4px rgba(34, 40, 49,50%);
+}
+.left .writing button:hover{
+  background: #00ADB5;
+}
+
+.about-wrepper{
+  display: flex;
+  justify-content: space-between;
+}
+.about-wrepper .left{
+  margin-top: 26px;
+}
+.about-wrepper .left .writing-area h2{
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 96px;
+  color: #eeeeee;
+  margin-bottom: 16px;
+}
+.about-wrepper .left .writing-area h2 span{
+  color: #00ADB5;
+}
+.about-wrepper .left .writing-area p {
+  width: 389px;
+  font-size: 18px;
+  color: rgba(238, 238, 238,75%);
+}
+.light-vector {
+  display: flex;
+}
+.light-vector img{
+  margin-left: 24px;
+}
+.down-vector{
+  margin-top: 40px;
+}
+.music-vector{
+  margin-bottom: 50px;
+}
+ hr{
+  margin-top: 48px;
+  margin-bottom: 48px;
+  width: 100%;
+   border: 1px solid rgba(238, 238, 238, 10%);
+}
+
+.Project{
+  background-image: url(./../img-file/Projects\ bagtaound.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.prject-area{
+  margin-top: 68px;
+}
+.Project .prject-area h2{
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 96px;
+  color: #eeeeee;
+  margin-bottom: 16px;
+}
+.Project .prject-area h2 span{
+  color: #00ADB5;
+}
+.imgs .vector-shep{
+  margin-bottom: 120px;
+}
+.Project .prject-area ul li{
+  display: inline-block;
+  margin-right: 16px;
+}
+.Project .prject-area ul li button{
+  margin-right: 14px;
+  border: none;
+  padding: 10px 32px;
+  background: rgba(57, 62, 70,75%);
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius:24px;
+  text-shadow: 0 4px 4px rgba(34, 40, 49,50%);
+  margin-bottom: 48px;
+}
+.Project .prject-area ul li button:hover{
+  background: #00ADB5;
+}
+.img-area{
+display: flex;
+gap: 24px;
+}
+
+.contact-wrepper{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-wrepper .left{
+  display: inline-block;
+}
+.contact-wrepper .left h2{
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 96px;
+  color: #eeeeee;
+  margin-bottom: 16px;
+}
+.contact-wrepper .left h2 span{
+  color: #00ADB5;
+}
+.contact-wrepper .right form{
+  margin-top: 50px;
+}
+
+.contact-wrepper .right form  label{
+font-size: 18px;
+font-weight: bold;
+color: #eeeeee;
+
+}
+.contact-wrepper .right form input{
+width: 288px;
+background: rgba(57, 62, 70, 50%);
+border: none;
+padding:16px 0;
+padding-left: 24px;
+border-radius: 10px;
+margin-top: 5px;
+color: #eeeeee;
+}
+.contact-wrepper .right .box{
+  display: flex;
+  gap: 16px;
+}
+.message{
+  margin-top: 10px;
+}
+.contact-wrepper .right .message textarea{
+  width: 35rem;
+  background: rgba(57, 62, 70, 50%);
+  border: none;
+padding:16px 0;
+padding-left: 24px;
+border-radius: 10px;
+margin-top: 5px;
+height: 20rem;
+color: #eeeeee;
+}
+.contact-wrepper .right button{
+  border: none;
+  padding: 10px 32px;
+  background: rgba(57, 62, 70, 50%);
+  border-radius: 24px;
+  color: #eeeeee;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.contact-wrepper .right button:hover{
+  background: #00ADB5;
+}
+
+footer{
+ 
+ padding-top: 40px;
+  border-top: 1px solid rgba(238, 238, 238, 10%);
+  margin-bottom: 40px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+gap: 30px;
+  margin-top: 20px;
+}
+footer ul li a{
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+
+footer .one li  a:hover{
+  text-decoration: underline;
+  color: #00ADB5;
+}
+footer ul li a i{
+  margin-right: 10px;
+}
+footer .two{
+  margin-top: 30px;
+}
+footer .two li a{
+font-size: 25px;
+text-shadow: 0 0 5px #00ADB5;
+}
+footer .two li a:hover{
+text-shadow: 0 0 25px #00ADB5;
+font-size: 28px;
+}
+footer h4{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(238, 238, 238, 75%);
+  margin-top: 10px;
+}
